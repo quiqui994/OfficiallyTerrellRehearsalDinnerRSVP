@@ -83,15 +83,20 @@ margin-top:.4rem;
     display:flex;
     justify-content:center;
     align-items:center;
-    gap:2.5rem;
+    gap:3rem;
 
     flex-wrap:wrap;
 
-    font-size:1.1rem;
+    font-size:1rem;
     font-weight:500;
 
     color:#333;
 
+}
+
+#countdownText span {
+    font-size: 0.9rem;
+    font-weight: 500;
 }
 
 .details{
