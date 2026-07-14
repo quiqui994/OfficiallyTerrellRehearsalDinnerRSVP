@@ -135,7 +135,7 @@ transition:.25s;
 
 .button:hover{
 
-background:#fff;
+background:#EBEDFA;
 color:#000;
 
 }
@@ -191,7 +191,7 @@ box-shadow:var(--shadow);
 
 .floatingButton:hover{
 
-background:#fff;
+background:#EBEDFA;
 color:#000;
 
 }
