@@ -56,55 +56,35 @@ margin-top:.4rem;
 
 .countdown{
 
-display:flex;
-justify-content:center;
-padding-bottom:60px;
+    display:flex;
+    justify-content:center;
+    padding-bottom:60px;
 
 }
 
-.countBox{
+.countdownCard{
 
-display:flex;
-flex-direction:column;
-align-items:center;
-justify-content:center;
+    background:white;
+    box-shadow:var(--shadow);
 
-min-width:70px;
+    border-radius:18px;
 
-}
+    padding:18px 36px;
 
-.countdownContainer{
+    max-width:700px;
+    width:90%;
 
-display:flex;
-flex-direction:row;
-justify-content:center;
-align-items:center;
-
-background:white;
-border-radius:20px;
-box-shadow:var(--shadow);
-
-padding:16px 30px;
-gap:30px;
+    text-align:center;
 
 }
 
-.countBox span{
+#countdownText{
 
-font-size:1.45rem;
-font-weight:600;
-line-height:1;
-
-}
-
-.countBox small{
-
-margin-top:6px;
-font-size:.72rem;
-font-weight:600;
-letter-spacing:.12em;
-text-transform:uppercase;
-color:#666;
+    font-size:1.45rem;
+    font-weight:500;
+    letter-spacing:.02em;
+    font-size:1.5rem;
+    color:#333;
 
 }
 
