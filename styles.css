@@ -80,10 +80,16 @@ margin-top:.4rem;
 
 #countdownText{
 
-    font-size:1.45rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:2.5rem;
+
+    flex-wrap:wrap;
+
+    font-size:1.1rem;
     font-weight:500;
-    letter-spacing:.02em;
-    font-size:1.5rem;
+
     color:#333;
 
 }
