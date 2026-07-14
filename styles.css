@@ -67,8 +67,8 @@ padding-bottom:60px;
 .countBox{
 
 background:white;
-padding:24px;
-width:120px;
+padding:18px;
+width:100px;
 border-radius:18px;
 box-shadow:var(--shadow);
 text-align:center;
@@ -78,7 +78,7 @@ text-align:center;
 .countBox span{
 
 display:block;
-font-size:2.2rem;
+font-size:1.6rem;
 font-weight:600;
 
 }
