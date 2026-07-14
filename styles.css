@@ -30,12 +30,11 @@ text-align:center;
 }
 
 .eyebrow{
-
-letter-spacing:4px;
-text-transform:uppercase;
-color:var(--accent);
-font-size:.85rem;
-
+    letter-spacing:4px;
+    text-transform:uppercase;
+    color:#000;
+    font-size:1rem;
+    font-weight:500;
 }
 
 h1{
@@ -49,8 +48,9 @@ margin:.2em 0;
 
 .date{
 
-font-size:1.15rem;
-color:#666;
+font-size:1.45rem;
+color:#444;
+margin-top:.4rem;
 
 }
 
@@ -122,10 +122,17 @@ margin-top:0;
 display:inline-block;
 margin-top:20px;
 padding:12px 24px;
-background:var(--accent);
-color:white;
+background:#000;
+color:#fff;
 text-decoration:none;
 border-radius:999px;
+transition:.25s;
+
+}
+
+.button:hover{
+
+background:#222;
 
 }
 
@@ -169,12 +176,18 @@ color:#777;
 position:fixed;
 right:25px;
 bottom:25px;
-background:#8d806c;
-color:white;
+background:#000;
+color:#fff;
 padding:16px 26px;
 border-radius:999px;
 text-decoration:none;
 box-shadow:var(--shadow);
+
+}
+
+.floatingButton:hover{
+
+background:#222;
 
 }
 
